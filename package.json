@@ -1,0 +1,25 @@
+{
+  "name": "react-native-use",
+  "version": "1.0.0",
+  "description": "Hooks for the React Native API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alburdette619/react-native-use.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "hooks"
+  ],
+  "author": "Adam Burdette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alburdette619/react-native-use/issues"
+  },
+  "homepage": "https://github.com/alburdette619/react-native-use#readme"
+}
