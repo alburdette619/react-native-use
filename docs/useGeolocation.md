@@ -8,12 +8,12 @@ React Native API 🎣 for the use of `navigator.geolocation`.  It will return th
 
 Passed in as a single object with the following keys
 
-| Parameter Key | Required             | Default Value |
-| ------------- | -------------------- | ------------- |
-| success       | <ul><li>[x]</li><li> | -             |
-| error         | <ul><li>[x]</li><li> | -             |
-| options       | <ul><li>[]</li><li>  | {}            |
-| shouldWatch   | <ul><li>[]</li><li>  | False         |
+| Parameter Key | Required | Default Value |
+| ------------- | :------: | ------------- |
+| success       | &#9745;  | -             |
+| error         | &#9745;  | -             |
+| options       | &#9744;  | {}            |
+| shouldWatch   | &#9744;  | False         |
 
 
 
