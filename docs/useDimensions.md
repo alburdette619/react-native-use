@@ -1,10 +1,10 @@
 # useDimensions
 
-React Native API 🎣 that adds event listener(s) for the `Dimsnsions` `change ` event.  Also, this will return the initial Dimensions when called.
+React Native API 🎣 that adds event listener(s) for the `Dimsnsions` `change` event.  Also, this will return the initial Dimensions when called.
 
-### Types
+## Types
 
-##### DimensionsTypes
+### DimensionsTypes
 
 React Native has two dimensions, `screen` and `window`.  On iOS these are the same, but on Android the values returned are different.  From [the docs](https://facebook.github.io/react-native/docs/0.59/dimensions#get):
 
@@ -17,7 +17,7 @@ Any number of types can be requested, but defaults are set per Platform.
 | SCREEN | Android      |
 | WINDOW | Android, iOS |
 
-### Usage
+## Usage
 
 ```javascript
 import {useDimensions, types} from 'react-native-use'
@@ -25,4 +25,3 @@ import {useDimensions, types} from 'react-native-use'
 const {DimensionsTypes} = types;
 const {window: {height, width}} = useDimensions(DimensionsTypes.WINDOW);
 ```
-

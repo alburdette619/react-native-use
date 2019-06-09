@@ -2,7 +2,7 @@
 
 React Native API 🎣 that adds an event listener to `NetInfo`.  Also, this will return the initial state from `NetInfoInfo.fetch()`.
 
-### Usage
+## Usage
 
 ```javascript
 import {useNetInfo} from 'react-native-use'

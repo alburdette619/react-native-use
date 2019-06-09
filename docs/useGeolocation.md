@@ -2,9 +2,9 @@
 
 React Native API 🎣 for the use of `navigator.geolocation`.  It will return the initial state from `getCurrentPosition`.  Watching can be setup as well.  
 
-### Usage
+## Usage
 
-##### Parameters 
+### Parameters 
 
 Passed in as a single object with the following keys
 
@@ -15,8 +15,6 @@ Passed in as a single object with the following keys
 | options       |          | {}            |
 | shouldWatch   |          | False         |
 
-
-
 ```javascript
 import {useGeolocation} from 'react-native-use'
 
@@ -25,4 +23,3 @@ const error = err => console.log(err)
 
 useGeolocation({success, error, options: {enableHighAccuracy: true}, shouldWatch: true});
 ```
-

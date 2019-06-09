@@ -2,9 +2,9 @@
 
 React Native API 🎣 that adds event listener(s) for `Keyboard` events.
 
-### Types
+## Types
 
-##### KeyboardEventTypes
+### KeyboardEventTypes
 
 React Native has six different event tyeps for the Keyboard API.
 
@@ -17,9 +17,9 @@ Any number of types can be requested, by default, none are subscribed to.  The f
 - KEYBOARD_WILL_CHANGE_FRAME
 - KEYBOARD_DID_CHANGE_FRAME
 
-### Usage
+## Usage
 
-##### Parameters
+### Parameters
 
 Pass in a single object who's keys are `KeyboardEventTypes` and values are handlers for the specific keyboard events requested.
 
