@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Keyboard } from "react-native";
 
-export const KeyboardTypes = {
+export const KeyboardEventTypes = {
   KEYBOARD_WILL_SHOW: "keyboardWillShow",
   KEYBOARD_DID_SHOW: "keyboardDidShow",
   KEYBOARD_WILL_HIDE: "keyboardWillHide",
@@ -10,12 +10,11 @@ export const KeyboardTypes = {
   KEYBOARD_DID_CHANGE_FRAME: "keyboardDidChangeFrame"
 };
 
-const useKeyboard = (types = []) => {
+const useKeyboard = (handlers = []) => {
   const typesArray = Array.isArray(types) ? types : [types];
 
-  const [state, setState] = useState({});
   const handleStateChange = (newState, type) =>
-    setState({ ...state, [type]: newState });
+    handlers[type] && handlers[type](newState);
 
   useEffect(() => {
     typesArray.forEach(type =>
@@ -24,8 +23,6 @@ const useKeyboard = (types = []) => {
 
     return () => typesArray.forEach(type => Keyboard.removeAllListeners(type));
   });
-
-  return state;
 };
 
 export default useKeyboard;

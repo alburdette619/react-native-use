@@ -6,10 +6,7 @@ const useBackHandler = handleBackPress => {
     BackHandler.addEventListener("hardwareBackPress", handleBackPress);
 
     return () =>
-      BackHandler.removeEventListener(
-        "chahardwareBackPressnge",
-        handleBackPress
-      );
+      BackHandler.removeEventListener("hardwareBackPress", handleBackPress);
   });
 
   return BackHandler.exitApp;

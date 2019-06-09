@@ -3,12 +3,12 @@ import useAppState from "./hooks/useAppState";
 import useBackHandler from "./hooks/useBackHandler";
 import useDimensions, { DimensionsTypes } from "./hooks/useDimensions";
 import useGeolocation from "./hooks/useGeolocation";
-import useKeyboard, { KeyboardTypes } from "./hooks/useKeyboard";
+import useKeyboard, { KeyboardEventTypes } from "./hooks/useKeyboard";
 import useNetInfo from "./hooks/useNetInfo";
 
 const types = {
   DimensionsTypes,
-  KeyboardTypes
+  KeyboardEventTypes
 };
 
 export {
