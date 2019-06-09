@@ -4,7 +4,7 @@
 
 🎣s for the React Native API
 
-This library is heavily inspired by react-use by streamich.
+This library is heavily inspired by [react-use](https://github.com/streamich/react-use) by [streamich](https://github.com/streamich).
 
 ## Installation
 
