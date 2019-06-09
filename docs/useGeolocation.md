@@ -12,8 +12,8 @@ Passed in as a single object with the following keys
 | ------------- | :------: | ------------- |
 | success       | &#9745;  | -             |
 | error         | &#9745;  | -             |
-| options       | &#9744;  | {}            |
-| shouldWatch   | &#9744;  | False         |
+| options       |          | {}            |
+| shouldWatch   |          | False         |
 
 
 
