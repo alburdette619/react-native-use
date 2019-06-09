@@ -1,6 +1,6 @@
 # react-native-use
 
-<a href="https://codeclimate.com/github/alburdette619/react-native-use/maintainability"><img src="https://api.codeclimate.com/v1/badges/deab61fc8a5d548a7667/maintainability" /></a><a href="https://codeclimate.com/github/alburdette619/react-native-use/test_coverage"><img src="https://api.codeclimate.com/v1/badges/deab61fc8a5d548a7667/test_coverage" /></a>
+<a href="https://codeclimate.com/github/alburdette619/react-native-use/maintainability"><img src="https://api.codeclimate.com/v1/badges/deab61fc8a5d548a7667/maintainability" /></a> <a href="https://codeclimate.com/github/alburdette619/react-native-use/test_coverage"><img src="https://api.codeclimate.com/v1/badges/deab61fc8a5d548a7667/test_coverage" /></a> 
 
 🎣s for the React Native API 
 
