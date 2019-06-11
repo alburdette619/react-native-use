@@ -20,7 +20,7 @@ npm i react-native-use
 
 ## Description
 
-Currently, this library contains hook implementations for the React Native API; however, it seeks to become a repository of hook recipies useful to RN devs.
+Currently, this library contains hook implementations for the React Native API; however, it seeks to become a repository of hook recipes useful to RN devs.
 
 ------
 
